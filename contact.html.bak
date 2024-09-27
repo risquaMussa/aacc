@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>RisquaMussa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Resume</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href= "Education.html">Education</a></li>
+    <li><a href="work.html">Work</a></li> 
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<script>
+alert("welcome to our site");
+<!---comment//--->
+
+
+
+</script>
+<main>
+
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+<fieldset><legend> Customer information </legend>
+		
+	First Name<input type="text" name "firstname" id= "firstname" required placeholder="firstname">
+	<First Name: <input type="text" name "firstname" id= "firstname" placeholder="firstname">
+	
+	Last Name: <input type="text" name "lastname" id= "lastname" required placeholder ="lastname"> <br> <br>
+	
+	
+   <label for ="email"> *E-mail:</label> <input type="email" name ="email" id=
+	"email" required placeholder="your email..">
+ Cell phone: <input type="text" name "lastname" id= "lastname" required placeholder="your phone.."> <br> <br>
+	Subject:<br>
+	<textarea id="comments" name="comments" cols ="30" rows ="10"></textarea>
+	<br><br>
+	
+	 <input type="submit" value="Submit">
+	 <input type ="reset">
+	 
+	 </fieldset>
+	 </form>
+	
+
+</main>
+<footer>
+Copyright &copy; 2022 My First Website<br>
+<a href="mailto:yourfirstname@yourlastname.com">Rsmussa@mymail.aacc.com</a>
+</footer>
+</body>
+</html>
